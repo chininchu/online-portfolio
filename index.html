@@ -17,7 +17,7 @@
 
 
 </head>
-<body>
+<body id="body">
 
 <!-------------------------------------------------------------------------------------- header section -->
 
@@ -28,7 +28,22 @@
             <!---------------------------------- Here is the logo path -->
             <div class="logo">
                 <a href="index.html"><h4>Andrew Chu</h4></a>
+
+
             </div>
+
+            <div id="toggleSwitch">Light/Dark</div>
+
+
+            <div class="switch">
+
+
+                <input type="checkbox" id="darkLightModeSwitch" onclick="toggleDarkLightMode()">
+
+                <label for="darkLightModeSwitch"></label>
+            </div>
+
+
             <div class="open-nav-menu">
                 <span></span>
             </div>
@@ -79,7 +94,9 @@
                 <div class="col-md-12">
                     <div class="hero_content text-center pt-5 mt-5">
                         <!-- job title -->
-                        <h1 class="wow fadeInUp" data-wow-duration="1s">Full Stack Developer</h1>
+                        <h1 class=" title-darkmode wow fadeInUp" data-wow-duration="1s">Full Stack Developer</h1>
+
+
                     </div>
                     <!-- social links -->
                     <div class="right_side_icon text-center mt-3 wow bounceIn" data-wow-duration="1s">
@@ -460,7 +477,12 @@
                             <div class="text-container">
                                 <h5>TechConnect</h5>
                                 <div class="text_read">
-                                    <p class="text">TechConnect is a cutting-edge TechNetworking website that harnesses the power of a full stack application built with HTML/CSS, JavaScript, Java, Spring Boot, and MySQL. It goes above and beyond by integrating the Google Calendar API and Mapbox API, providing tech professionals with a seamless networking experience enriched with event management and location-based features.<span class="more-text"></span></p>
+                                    <p class="text">TechConnect is a cutting-edge TechNetworking website that harnesses
+                                        the power of a full stack application built with HTML/CSS, JavaScript, Java,
+                                        Spring Boot, and MySQL. It goes above and beyond by integrating the Google
+                                        Calendar API and Mapbox API, providing tech professionals with a seamless
+                                        networking experience enriched with event management and location-based
+                                        features.<span class="more-text"></span></p>
                                     <a href="#" class="read-more">Read More</a>
                                     <a href="#" class="read-less">Read Less</a>
                                 </div>
